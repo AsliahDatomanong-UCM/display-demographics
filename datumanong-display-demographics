@@ -1,0 +1,17 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Student ID     :  25235607");
+        Console.WriteLine("Full Name      : Asliah D. Datomanong");
+        Console.WriteLine("Nick Name      : Liah");
+        Console.WriteLine("Gender         : Female");
+        Console.WriteLine("Year Level     : 2nd Year");
+        Console.WriteLine("Home Location  : 121-1 Vicente Gullas St., Central (Pob.), Cebu City");
+        Console.WriteLine("Course         : Bachelor of Science in Information Technology");
+        Console.WriteLine("Mobile No.     : 09854246747");
+        Console.WriteLine("Personal Email : datumanongasliah@gmail.com");
+    }
+}
