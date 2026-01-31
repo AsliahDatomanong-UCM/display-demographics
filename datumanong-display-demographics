@@ -1,17 +1,34 @@
 using System;
 
-public class HelloWorld
+namespace DisplayDemographics
 {
-    public static void Main(string[] args)
+    class DisplayDemographics
     {
-        Console.WriteLine("Student ID     :  25235607");
-        Console.WriteLine("Full Name      : Asliah D. Datomanong");
-        Console.WriteLine("Nick Name      : Liah");
-        Console.WriteLine("Gender         : Female");
-        Console.WriteLine("Year Level     : 2nd Year");
-        Console.WriteLine("Home Location  : 121-1 Vicente Gullas St., Central (Pob.), Cebu City");
-        Console.WriteLine("Course         : Bachelor of Science in Information Technology");
-        Console.WriteLine("Mobile No.     : 09854246747");
-        Console.WriteLine("Personal Email : datumanongasliah@gmail.com");
+        static void Main(string[] args)
+        {
+            long id_no = 25235607;
+            string name = "Asliah Datomanong";
+            string nn = "Liah";
+            string gender = "Female";
+            string year = "2nd Year";
+            string home = "121-1 Vicente Gullas St., Central (Pob.), Cebu City";
+            string course = "Bachelor of Science in Computer Science";
+            string no = "+639854246747";
+            string email = "datumanongasliah@gmail.com";
+
+            Console.WriteLine("Demographics Program by Asliah");
+            Console.WriteLine();
+            Console.WriteLine("Student ID       : " + id_no);
+            Console.WriteLine("Full Name        : " + name);
+            Console.WriteLine("Nick Name        : " + nn);
+            Console.WriteLine("Gender           : " + gender);
+            Console.WriteLine("Year Level       : " + year);
+            Console.WriteLine("Home Location    : " + home);
+            Console.WriteLine("Course           : " + course);
+            Console.WriteLine("Mobile No.       : " + no);
+            Console.WriteLine("Personal Email   : " + email);
+            
+            Console.ReadKey();
+        }
     }
 }
